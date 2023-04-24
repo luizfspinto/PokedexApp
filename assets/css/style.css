@@ -5,14 +5,16 @@
 }
 body {
   font-family: "Inter", sans-serif;
+  background-color: aliceblue;
 }
 
 .content {
   font-size: 1rem;
-}
-
-.content h1 {
-  margin: 0;
+  background-color: white;
+  height: 100vh;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin: 1rem;
 }
 
 .pokemons {
@@ -20,7 +22,7 @@ body {
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
 }
 
 .pokemon {
@@ -64,7 +66,7 @@ body {
 }
 
 .pokemon .datails img {
-  max-width: 6rem;
+  max-width: 9rem;
   display: flex;
   align-self: flex-end;
 }
