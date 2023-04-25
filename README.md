@@ -3,14 +3,11 @@
 <p align="center">O projeto foi desenvolvido com o foco no consumo de API, com o objetivo de apresentar uma lista de Pokemons contendo informações como ID, nome, foto e tipos.
 <br/>
 
-<br>
-
-<p align="center">
-  <img alt="projeto Tela de Cadastro" src=".github/project.jpg" width="100%">
-</p>
 
 ## Demo
-
+<p align="center">
+  <img alt="projeto Tela de Cadastro" src=".github/preview.gif" width="100%">
+</p>
 
 ## 🚀 Tecnologias
 
