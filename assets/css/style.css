@@ -11,7 +11,7 @@ body {
 .content {
   font-size: 1rem;
   background-color: white;
-  height: 100vh;
+  height: 100%;
   border-radius: 1rem;
   padding: 0.5rem;
   margin: 1rem;
@@ -28,7 +28,7 @@ body {
 .pokemon {
   padding: 1.2rem;
   margin: 0.5rem;
-  background-color: rgb(21, 173, 123);
+
   color: white;
   border-radius: 1rem;
   display: flex;
@@ -43,6 +43,7 @@ body {
 
 .pokemon .name {
   margin-bottom: 0.25rem;
+  text-transform: uppercase;
 }
 
 .pokemon .types {
@@ -56,17 +57,98 @@ body {
   align-items: center;
 }
 
-.datails .types .type {
-  background-color: rgba(255, 255, 255, 0.37);
+.pokemon .datails .types .type {
+  background-color: rgba(212, 212, 212, 0.726);
   color: rgb(255, 255, 255);
   padding: 0.3rem;
-  font-size: 0.70rem;
+  font-size: 0.7rem;
   margin: 0.4rem 0;
   border-radius: 0.7rem;
+  text-align: center;
 }
 
 .pokemon .datails img {
   max-width: 9rem;
   display: flex;
   align-self: flex-end;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  padding: 2rem;
+}
+
+.pagination button {
+  border: none;
+  border-radius: 1.2rem;
+  background-color: #230b8fbd;
+  color: white;
+  padding: 0.5rem 0.8rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.pagination button:hover {
+  background-color: #37219b;
+  color: white;
+  padding: 0.5rem 0.8rem;
+  cursor: pointer;
+}
+
+.normal {
+  background-color: rgb(165, 138, 89);
+}
+.fire {
+  background-color: rgb(250, 76, 63);
+}
+.water {
+  background-color: rgba(28, 70, 255, 0.884);
+}
+.grass {
+  background-color: rgb(21, 173, 123);
+}
+.flying {
+  background-color: rgb(29, 127, 156);
+}
+.fighting {
+  background-color: rgb(248, 188, 77);
+}
+.poison {
+  background-color: rgb(210, 141, 250);
+}
+.electric {
+  background-color: rgb(240, 243, 53);
+}
+.ground {
+  background-color: rgb(155, 128, 6);
+}
+.rock {
+  background-color: rgb(107, 56, 14);
+}
+.psychic {
+  background-color: rgb(190, 51, 172);
+}
+.ice {
+  background-color: rgb(70, 195, 204);
+}
+.bug {
+  background-color: rgb(21, 151, 64);
+}
+.ghost {
+  background-color: rgb(85, 33, 153);
+}
+.steel {
+  background-color: rgb(52, 184, 144);
+}
+.dragon {
+  background-color: rgb(45, 196, 196);
+}
+.dark {
+}
+.fairy {
+  background-color: rgb(197, 26, 26);
 }

@@ -3,7 +3,7 @@ const apiPoke = {} //Objeto global
 function convertPokeApiDetails(pokeDetails) {
   const pokemon = new Pokemon()
   pokemon.name = pokeDetails.name
-  pokemon.number = pokeDetails.order
+  pokemon.number = pokeDetails.id
   const types = pokeDetails.types.map((typeSlote) => typeSlote.type.name)
   const [type] = types
 
