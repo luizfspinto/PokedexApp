@@ -1,6 +1,6 @@
 const pokemonList = document.getElementById("pokemonList")
 const loadButton = document.getElementById("loadMore")
-const limit = 5;
+const limit = 8;
 let offset = 0;
 
 
@@ -32,7 +32,6 @@ function loadItemsApi(offset, limit) {
 }
 
 loadItemsApi(offset, limit)
-
 loadButton.addEventListener('click', () => {
   offset += limit
   loadItemsApi(offset, limit)

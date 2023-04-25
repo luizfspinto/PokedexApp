@@ -1,4 +1,4 @@
-const apiPoke = {} //Objeto global
+const apiPoke = {} //Object global
 
 function convertPokeApiDetails(pokeDetails) {
   const pokemon = new Pokemon()
